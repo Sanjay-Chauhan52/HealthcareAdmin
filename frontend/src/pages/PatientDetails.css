@@ -1,0 +1,140 @@
+.patient-details {
+  max-width: 1000px;
+}
+
+.btn-back {
+  background-color: #95a5a6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.btn-back:hover {
+  background-color: #7f8c8d;
+}
+
+.patient-info-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.patient-info-card h1 {
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.info-item.full-width {
+  grid-column: 1 / -1;
+}
+
+.info-item label {
+  font-weight: 600;
+  color: #7f8c8d;
+  font-size: 14px;
+}
+
+.info-item span {
+  color: #2c3e50;
+  font-size: 16px;
+}
+
+.checkup-history {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.checkup-history h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  color: #7f8c8d;
+}
+
+.checkup-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.checkup-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.checkup-header {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #3498db;
+}
+
+.checkup-date {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.checkup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.checkup-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.checkup-field strong {
+  color: #34495e;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.checkup-field p {
+  color: #2c3e50;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+  font-size: 18px;
+  color: #7f8c8d;
+}
+
+.error {
+  text-align: center;
+  padding: 50px;
+  font-size: 18px;
+  color: #e74c3c;
+}
+
