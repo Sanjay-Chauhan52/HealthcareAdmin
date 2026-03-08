@@ -1,10 +1,6 @@
-cd backend
-npm install 
-cd ../frontend
-npm install
-cd ../backend
-npm start
-cd ../frontend
-npm run dev
+#!/bin/bash
+set -e
 
-// test
+cd backend && npm install
+cd ../frontend && npm install && npm run build
+cd ../backend && npm start
