@@ -4,7 +4,7 @@ import './Dashboard.css';
 
 function Dashboard() {
   const [stats, setStats] = useState({
-    totalPatients: 0,
+    totalPatients: 10,
     totalAppointments: 0,
     todayAppointments: 0,
     totalCheckups: 0
