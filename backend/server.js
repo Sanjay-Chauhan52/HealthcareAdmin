@@ -357,6 +357,10 @@ app.get('/api/dashboard/appointments-chart', (req, res) => {
   res.json(chartData);
 });
 
+app.get('/', (req, res) => {
+  res.send("App is running 🚀");
+});
+
 // Start server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
